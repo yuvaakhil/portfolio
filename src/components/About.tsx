@@ -46,11 +46,7 @@ const About: React.FC = () => {
           }`}>
             <div className="relative inline-block mb-8">
               <div className="w-80 h-80 mx-auto lg:mx-0 rounded-2xl overflow-hidden border-4 border-gray-200 dark:border-gray-700 shadow-2xl transform hover:scale-105 transition-transform duration-500">
-                <img
-                  src="https://ibb.co/wNYHSMFw"
-                  alt="Yuva Akhil Pattela"
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
-                />
+                <a href="https://ibb.co/wNYHSMFw"><img src="https://i.ibb.co/wNYHSMFw/Pattela-Yuva-Akhil.jpg" alt="Pattela-Yuva-Akhil" border="0"></a>
               </div>
               <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-black dark:bg-white rounded-full flex items-center justify-center animate-pulse">
                 <span className="text-white dark:text-black text-2xl">💻</span>
