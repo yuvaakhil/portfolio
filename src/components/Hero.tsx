@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   const [textIndex, setTextIndex] = useState(0);
   const { isDark } = useTheme();
   
-  const titles = ['Full-Stack Developer', 'Computer Science Student', 'Tech Blogger', 'Problem Solver'];
+  const titles = ['Aspiring Full-Stack Developer', 'Computer Science Student', 'Tech Blogger', 'Problem Solver'];
 
   useEffect(() => {
     setIsVisible(true);
