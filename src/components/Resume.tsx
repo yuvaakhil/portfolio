@@ -33,7 +33,7 @@ const Resume: React.FC = () => {
   }, []);
 
 const handleDownload = () => {
-  const url = 'https://drive.google.com/uc?export=download&id=1SLv3sg4rvKRlLDu9NBc5EYVHdNt2yBe3';
+  const url = 'https://drive.google.com/file/d/1QShjvk98n54qhcqJ8naDBwAtRATE6JBs/view?usp=drive_link';
   const link = document.createElement('a');
   link.href = url;
   link.download = 'YuvaAkhil_Resume.pdf'; // optional: suggest a file name
@@ -78,7 +78,7 @@ const handleDownload = () => {
                 Full-Stack Developer & Computer Science Student
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-400 text-center mb-8">
-                Last updated: January 2025
+                Last updated: August 2025
               </p>
 
               {/* Action Buttons */}
@@ -147,7 +147,7 @@ const handleDownload = () => {
               {[
                 { label: 'Experience', value: 'Learning' },
                 { label: 'Projects', value: '5+' },
-                { label: 'CGPA', value: '9.19' },
+                { label: 'CGPA', value: '9.15' },
                 { label: 'Certifications', value: '5+' }
               ].map((stat, index) => (
                 <div
