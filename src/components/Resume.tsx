@@ -43,7 +43,7 @@ const handleDownload = () => {
 };
 
  const handlePreview = () => {
-  const url = 'https://drive.google.com/file/d/1SLv3sg4rvKRlLDu9NBc5EYVHdNt2yBe3/view?usp=sharing';
+  const url = "https://drive.google.com/file/d/1QShjvk98n54qhcqJ8naDBwAtRATE6JBs/view?usp=drive_link";
   window.open(url, '_blank');
 };
 
